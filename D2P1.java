@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class D2P1 {
     public static void main(String[] args) {
         //so. find any id which is a number repeated twice. eg, 55, 2424, 123123.
-        //criteria. numbers must have an even index. 10, 10^2, 10^4 etc.
+        //criteria. numbers must have an even index. 10, 1000, 100000.
             //hence. count chars in an id, if even continue, if odd disregard.
         //split directly in the middle. char index in a string, go from /2 of chars. if first half = second half. ITS AN INVALID ID
 
